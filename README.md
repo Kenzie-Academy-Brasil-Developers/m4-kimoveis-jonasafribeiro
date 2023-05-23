@@ -19,21 +19,21 @@ O projeto "Kimóveis" é uma API Rest desenvolvida como parte do curso da Kenzie
 
 ### O projeto segue uma estrutura organizada em pastas dentro da pasta "/src":
 
-`/controllers`: Contém os controladores responsáveis por tratar as requisições e respostas da API.
-`/entities`: Define as entidades do TypeORM para mapear as tabelas do banco de dados.
-`/interfaces`: Contém as interfaces TypeScript utilizadas no projeto.
-`/middlewares`: Responsável pelos middlewares de tratamento de requisições.
-`/migrations`: Armazena as migrações do TypeORM para controle da estrutura do banco de dados.
-`/routes`: Define as rotas da API Rest.
-`/schemas`: Contém os esquemas do Zod para validação e tratamento de dados.
-`/services`: Responsável pela comunicação com o banco de dados.
+- `/controllers`: Contém os controladores responsáveis por tratar as requisições e respostas da API.
+- `/entities`: Define as entidades do TypeORM para mapear as tabelas do banco de dados.
+- `/interfaces`: Contém as interfaces TypeScript utilizadas no projeto.
+- `/middlewares`: Responsável pelos middlewares de tratamento de requisições.
+- `/migrations`: Armazena as migrações do TypeORM para controle da estrutura do banco de dados.
+- `/routes`: Define as rotas da API Rest.
+- `/schemas`: Contém os esquemas do Zod para validação e tratamento de dados.
+- `/services`: Responsável pela comunicação com o banco de dados.
 
 ### Além disso, também dentro da `/src` existem alguns arquivos principais:
 
-`app.ts`: Ponto de entrada do projeto.
-`error.ts`: Tratamento personalizado de erros.
-`data-source.ts`: Configuração do banco de dados utilizando o TypeORM.
-`server.ts`: Inicialização e configuração do servidor.
+- `app.ts`: Ponto de entrada do projeto.
+- `error.ts`: Tratamento personalizado de erros.
+- `data-source.ts`: Configuração do banco de dados utilizando o TypeORM.
+- `server.ts`: Inicialização e configuração do servidor.
 
 ## Recursos principais
 
