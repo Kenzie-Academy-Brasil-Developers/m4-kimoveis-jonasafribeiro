@@ -1,15 +1,15 @@
 import { Request, Response } from "express";
 import dbServices from "../services/dbshared.services";
 import { sCategoryArray, sCategoryRes } from "../schemas/category.schemas";
-import { sRealEstateResArray } from "../schemas/realEstate.schemas";
 import categoryServices from "../services/category.services";
+import { tCategoryCreateReq } from "../interfaces/entities.interfaces";
 
 const entityName = "category";
 const schema = sCategoryRes;
 
 const categoryControllers = {
   create: async (req: Request, res: Response) => {
-    const data = req.body;
+    const data = req.body as tCategoryCreateReq;
     const newCategory = await dbServices.postData({ entityName, data, schema });
     return res.status(201).json(newCategory);
   },

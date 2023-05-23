@@ -6,8 +6,6 @@ import {
   tInputEntityNames,
   tInputEntityUpdateData,
 } from "../interfaces/services.interfaces";
-import AppError from "../error";
-import { Response } from "express";
 
 const dbServices = {
   getDataById: async <T extends tInputEntityNames, S extends ZodTypeAny>({
