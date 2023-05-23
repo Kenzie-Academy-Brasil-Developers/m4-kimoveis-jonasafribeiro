@@ -51,7 +51,9 @@ O projeto "Kimóveis" é uma API Rest desenvolvida como parte do curso da Kenzie
 - Execute o comando `npm install`. Isso irá iniciar o processo de instalação das dependências listadas no arquivo `package.json` do seu projeto.
 - Aguarde até que o npm conclua o processo de instalação. Ele baixará os pacotes necessários e os armazenará na pasta node_modules do seu projeto.
 
-Exemplos de uso
+## Exemplos de uso
+
+**Antes de executar qualquer ambiente, é necessário que se insira as informações necessárias no `.env.example` e que renomeie o arquivo para `.env`, o servidor utiliza essas informações para executar a inicialização do banco de dados e a criptografia das senhas. Caso não presente e preenchido corretamente, a aplicação poderá retornar erro.**
 
 - Para executar o ambiente de desenvolvimento, utilize o comando `npm run dev`. Isso iniciará o servidor e permitirá que você teste a API em um ambiente de desenvolvimento. **Certifique-se de que todas as dependências estejam instaladas corretamente antes de executar este comando.**
 
