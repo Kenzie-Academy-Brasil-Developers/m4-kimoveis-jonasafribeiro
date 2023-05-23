@@ -19,6 +19,7 @@ O projeto "Kimóveis" é uma API Rest desenvolvida como parte do curso da Kenzie
 
 ### O projeto segue uma estrutura organizada em pastas dentro da pasta "/src":
 
+- `/__tests__`: Contem todos os testes automatizados disponibilizados a nós pela Kenzie Academy Brasil.
 - `/controllers`: Contém os controladores responsáveis por tratar as requisições e respostas da API.
 - `/entities`: Define as entidades do TypeORM para mapear as tabelas do banco de dados.
 - `/interfaces`: Contém as interfaces TypeScript utilizadas no projeto.
@@ -26,12 +27,12 @@ O projeto "Kimóveis" é uma API Rest desenvolvida como parte do curso da Kenzie
 - `/migrations`: Armazena as migrações do TypeORM para controle da estrutura do banco de dados.
 - `/routes`: Define as rotas da API Rest.
 - `/schemas`: Contém os esquemas do Zod para validação e tratamento de dados.
-- `/services`: Responsável pela comunicação com o banco de dados.
+- `/services`: Responsável pelos processos lógicos da aplicação.
 
 ### Além disso, também dentro da `/src` existem alguns arquivos principais:
 
 - `app.ts`: Ponto de entrada do projeto.
-- `error.ts`: Tratamento personalizado de erros.
+- `error.ts`: Criação de classe para tratação personalizada de erros.
 - `data-source.ts`: Configuração do banco de dados utilizando o TypeORM.
 - `server.ts`: Inicialização e configuração do servidor.
 
